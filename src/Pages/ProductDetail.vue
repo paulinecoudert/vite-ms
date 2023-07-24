@@ -78,10 +78,10 @@ const { isFetching, data: product } = useFetch(
         <span class="d-flex description">{{ product.description }}</span>
         <h4 class="price"><sup>$</sup>{{ product.price }}</h4>
         <div class="buttons-group">
-          <v-btn to="/" variant="text">buy now</v-btn>
+          <v-btn to="/vite-ms/" variant="text">buy now</v-btn>
 
           <v-btn
-            to="/"
+            to="/vite-ms/"
             class="text-white"
             style="background: linear-gradient(-45deg, #66899d57, #8d9ad7)"
           >
