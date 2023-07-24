@@ -11,8 +11,8 @@ import "./style.css";
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-    { path: "/", component: Home, name: "home" },
-    { path: "/:productId", component: ProductDetail, name: "product-detail" },
+    { path: "/vite-ms/", component: Home, name: "home" },
+    { path: "/vite-ms/:productId", component: ProductDetail, name: "product-detail" },
   ],
 });
 
