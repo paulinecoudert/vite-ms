@@ -1,0 +1,32 @@
+/* */
+
+:root {
+  overflow: auto;
+}
+
+.v-application,
+.v-application [class*="text-"] {
+  font-family: "Raleway", sans-serif !important;
+}
+
+.v-card.v-theme--light.v-card--density-default.v-card--variant-elevated {
+  box-shadow: 0 3px 12px 0 rgb(104 113 134 / 20%);
+  color: transparent !important;
+}
+
+.v-btn__overlay,
+.v-btn__underlay {
+  color: transparent !important;
+}
+
+.input-group {
+  width: 50%;
+}
+
+.navbar-nav {
+  margin-right: 0px !important;
+}
+
+.container-fluid {
+  max-width: 1300px;
+}
